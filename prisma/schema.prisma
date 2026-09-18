@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Template {
+  id String @id @default(cuid())
+  name String
+  sourceFilename String
+  sourceFormat String @default("spectora-html-text")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  sections Section[]
+  imports ImportAudit[]
+}
+model Section {
+  id String @id @default(cuid())
+  title String
+  position Int
+  templateId String
+  template Template @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  items Item[]
+  @@unique([templateId, position])
+}
+model Item {
+  id String @id @default(cuid())
+  title String
+  position Int
+  sectionId String
+  section Section @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  comments Comment[]
+  @@unique([sectionId, position])
+}
+model Comment {
+  id String @id @default(cuid())
+  html String
+  plainText String
+  position Int
+  itemId String
+  item Item @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  @@unique([itemId, position])
+}
+model ImportAudit {
+  id String @id @default(cuid())
+  sourceFilename String
+  sourceSha256 String
+  stats Json
+  warnings Json
+  createdAt DateTime @default(now())
+  templateId String
+  template Template @relation(fields: [templateId], references: [id], onDelete: Cascade)
+}

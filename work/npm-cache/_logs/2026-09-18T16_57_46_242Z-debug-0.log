@@ -1,0 +1,391 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ASUS\OneDrive\Documents\Template importer\.npmrc
+5 silly config load:file:C:\Users\ASUS\.npmrc
+6 silly config load:file:C:\Users\ASUS\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install xlsx
+8 verbose argv "install" "xlsx" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\ASUS\OneDrive\Documents\Template importer\work\npm-cache\_logs\2026-09-18T16_57_46_242Z-
+10 verbose logfile C:\Users\ASUS\OneDrive\Documents\Template importer\work\npm-cache\_logs\2026-09-18T16_57_46_242Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest xlsx@*
+15 silly packumentCache full:https://registry.npmjs.org/xlsx cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/xlsx 1423ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/xlsx set size:undefined disposed:false
+18 silly placeDep ROOT xlsx@0.18.5 OK for: spectora-template-importer@0.1.0 want: *
+19 silly fetch manifest cfb@~1.2.1
+20 silly packumentCache full:https://registry.npmjs.org/cfb cache-miss
+21 silly fetch manifest ssf@~0.11.2
+22 silly packumentCache full:https://registry.npmjs.org/ssf cache-miss
+23 silly fetch manifest wmf@~1.0.1
+24 silly packumentCache full:https://registry.npmjs.org/wmf cache-miss
+25 silly fetch manifest word@~0.3.0
+26 silly packumentCache full:https://registry.npmjs.org/word cache-miss
+27 silly fetch manifest crc-32@~1.2.1
+28 silly packumentCache full:https://registry.npmjs.org/crc-32 cache-miss
+29 silly fetch manifest adler-32@~1.3.0
+30 silly packumentCache full:https://registry.npmjs.org/adler-32 cache-miss
+31 silly fetch manifest codepage@~1.15.0
+32 silly packumentCache full:https://registry.npmjs.org/codepage cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/codepage 289ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/codepage set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/cfb 381ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/cfb set size:undefined disposed:false
+37 http fetch GET 200 https://registry.npmjs.org/word 545ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/word set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/adler-32 555ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/adler-32 set size:undefined disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/ssf 562ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/ssf set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/crc-32 610ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/crc-32 set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/wmf 876ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/wmf set size:undefined disposed:false
+47 silly placeDep ROOT adler-32@1.3.1 OK for: xlsx@0.18.5 want: ~1.3.0
+48 silly placeDep ROOT cfb@1.2.2 OK for: xlsx@0.18.5 want: ~1.2.1
+49 silly placeDep ROOT codepage@1.15.0 OK for: xlsx@0.18.5 want: ~1.15.0
+50 silly placeDep ROOT crc-32@1.2.2 OK for: xlsx@0.18.5 want: ~1.2.1
+51 silly placeDep ROOT ssf@0.11.2 OK for: xlsx@0.18.5 want: ~0.11.2
+52 silly placeDep ROOT wmf@1.0.2 OK for: xlsx@0.18.5 want: ~1.0.1
+53 silly placeDep ROOT word@0.3.0 OK for: xlsx@0.18.5 want: ~0.3.0
+54 silly fetch manifest crc-32@~1.2.0
+55 silly packumentCache full:https://registry.npmjs.org/crc-32 cache-miss
+56 silly fetch manifest frac@~1.1.2
+57 silly packumentCache full:https://registry.npmjs.org/frac cache-miss
+58 http cache https://registry.npmjs.org/crc-32 37ms (cache hit)
+59 silly packumentCache full:https://registry.npmjs.org/crc-32 set size:32170 disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/frac 614ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/frac set size:undefined disposed:false
+62 silly placeDep ROOT frac@1.1.2 OK for: ssf@0.11.2 want: ~1.1.2
+63 silly reify moves {}
+64 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\fsevents
+65 silly reify mark deleted [
+65 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\fsevents'
+65 silly reify ]
+66 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@next\swc-win32-arm64-msvc
+67 silly reify mark deleted [
+67 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@next\\swc-win32-arm64-msvc'
+67 silly reify ]
+68 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@next\swc-linux-x64-musl
+69 silly reify mark deleted [
+69 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@next\\swc-linux-x64-musl'
+69 silly reify ]
+70 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@next\swc-linux-x64-gnu
+71 silly reify mark deleted [
+71 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@next\\swc-linux-x64-gnu'
+71 silly reify ]
+72 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@next\swc-linux-arm64-musl
+73 silly reify mark deleted [
+73 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@next\\swc-linux-arm64-musl'
+73 silly reify ]
+74 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@next\swc-linux-arm64-gnu
+75 silly reify mark deleted [
+75 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@next\\swc-linux-arm64-gnu'
+75 silly reify ]
+76 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@next\swc-darwin-x64
+77 silly reify mark deleted [
+77 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@next\\swc-darwin-x64'
+77 silly reify ]
+78 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@next\swc-darwin-arm64
+79 silly reify mark deleted [
+79 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@next\\swc-darwin-arm64'
+79 silly reify ]
+80 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-win32-ia32
+81 silly reify mark deleted [
+81 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-win32-ia32'
+81 silly reify ]
+82 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-win32-arm64
+83 silly reify mark deleted [
+83 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-win32-arm64'
+83 silly reify ]
+84 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-webcontainers-wasm32
+85 silly reify mark deleted [
+85 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-webcontainers-wasm32'
+85 silly reify ]
+86 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linuxmusl-x64
+87 silly reify mark deleted [
+87 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linuxmusl-x64'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linuxmusl-arm64
+89 silly reify mark deleted [
+89 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linuxmusl-arm64'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linux-x64
+91 silly reify mark deleted [
+91 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linux-x64'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linux-s390x
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linux-s390x'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linux-riscv64
+95 silly reify mark deleted [
+95 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linux-riscv64'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linux-ppc64
+97 silly reify mark deleted [
+97 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linux-ppc64'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linux-arm64
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linux-arm64'
+99 silly reify ]
+100 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-linux-arm
+101 silly reify mark deleted [
+101 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-linux-arm'
+101 silly reify ]
+102 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linuxmusl-x64
+103 silly reify mark deleted [
+103 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+103 silly reify ]
+104 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linuxmusl-arm64
+105 silly reify mark deleted [
+105 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+105 silly reify ]
+106 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linux-x64
+107 silly reify mark deleted [
+107 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linux-x64'
+107 silly reify ]
+108 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linux-s390x
+109 silly reify mark deleted [
+109 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linux-s390x'
+109 silly reify ]
+110 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linux-riscv64
+111 silly reify mark deleted [
+111 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+111 silly reify ]
+112 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linux-ppc64
+113 silly reify mark deleted [
+113 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+113 silly reify ]
+114 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linux-arm64
+115 silly reify mark deleted [
+115 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linux-arm64'
+115 silly reify ]
+116 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-linux-arm
+117 silly reify mark deleted [
+117 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-linux-arm'
+117 silly reify ]
+118 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-darwin-x64
+119 silly reify mark deleted [
+119 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-darwin-x64'
+119 silly reify ]
+120 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-libvips-darwin-arm64
+121 silly reify mark deleted [
+121 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+121 silly reify ]
+122 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-freebsd-wasm32
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-freebsd-wasm32'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-darwin-x64
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-darwin-x64'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@img\sharp-darwin-arm64
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@img\\sharp-darwin-arm64'
+127 silly reify ]
+128 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\win32-ia32
+129 silly reify mark deleted [
+129 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\win32-ia32'
+129 silly reify ]
+130 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\win32-arm64
+131 silly reify mark deleted [
+131 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\win32-arm64'
+131 silly reify ]
+132 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\sunos-x64
+133 silly reify mark deleted [
+133 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\sunos-x64'
+133 silly reify ]
+134 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\openharmony-arm64
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\openharmony-arm64'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\openbsd-x64
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\openbsd-x64'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\openbsd-arm64
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\openbsd-arm64'
+139 silly reify ]
+140 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\netbsd-x64
+141 silly reify mark deleted [
+141 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\netbsd-x64'
+141 silly reify ]
+142 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\netbsd-arm64
+143 silly reify mark deleted [
+143 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\netbsd-arm64'
+143 silly reify ]
+144 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-x64
+145 silly reify mark deleted [
+145 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-x64'
+145 silly reify ]
+146 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-s390x
+147 silly reify mark deleted [
+147 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-s390x'
+147 silly reify ]
+148 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-riscv64
+149 silly reify mark deleted [
+149 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-riscv64'
+149 silly reify ]
+150 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-ppc64
+151 silly reify mark deleted [
+151 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-ppc64'
+151 silly reify ]
+152 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-mips64el
+153 silly reify mark deleted [
+153 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-mips64el'
+153 silly reify ]
+154 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-loong64
+155 silly reify mark deleted [
+155 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-loong64'
+155 silly reify ]
+156 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-ia32
+157 silly reify mark deleted [
+157 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-ia32'
+157 silly reify ]
+158 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-arm64
+159 silly reify mark deleted [
+159 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-arm64'
+159 silly reify ]
+160 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\linux-arm
+161 silly reify mark deleted [
+161 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\linux-arm'
+161 silly reify ]
+162 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\freebsd-x64
+163 silly reify mark deleted [
+163 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\freebsd-x64'
+163 silly reify ]
+164 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\freebsd-arm64
+165 silly reify mark deleted [
+165 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\freebsd-arm64'
+165 silly reify ]
+166 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\darwin-x64
+167 silly reify mark deleted [
+167 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\darwin-x64'
+167 silly reify ]
+168 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\darwin-arm64
+169 silly reify mark deleted [
+169 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\darwin-arm64'
+169 silly reify ]
+170 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\android-x64
+171 silly reify mark deleted [
+171 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\android-x64'
+171 silly reify ]
+172 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\android-arm64
+173 silly reify mark deleted [
+173 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\android-arm64'
+173 silly reify ]
+174 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\android-arm
+175 silly reify mark deleted [
+175 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\android-arm'
+175 silly reify ]
+176 verbose reify failed optional dependency C:\Users\ASUS\OneDrive\Documents\Template importer\node_modules\@esbuild\aix-ppc64
+177 silly reify mark deleted [
+177 silly reify   'C:\\Users\\ASUS\\OneDrive\\Documents\\Template importer\\node_modules\\@esbuild\\aix-ppc64'
+177 silly reify ]
+178 http cache frac@https://registry.npmjs.org/frac/-/frac-1.1.2.tgz 0ms (cache hit)
+179 http cache word@https://registry.npmjs.org/word/-/word-0.3.0.tgz 0ms (cache hit)
+180 http cache wmf@https://registry.npmjs.org/wmf/-/wmf-1.0.2.tgz 0ms (cache hit)
+181 http cache ssf@https://registry.npmjs.org/ssf/-/ssf-0.11.2.tgz 0ms (cache hit)
+182 http cache crc-32@https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz 0ms (cache hit)
+183 http cache codepage@https://registry.npmjs.org/codepage/-/codepage-1.15.0.tgz 0ms (cache hit)
+184 silly tarball no local data for frac@https://registry.npmjs.org/frac/-/frac-1.1.2.tgz. Extracting by manifest.
+185 silly tarball no local data for word@https://registry.npmjs.org/word/-/word-0.3.0.tgz. Extracting by manifest.
+186 silly tarball no local data for wmf@https://registry.npmjs.org/wmf/-/wmf-1.0.2.tgz. Extracting by manifest.
+187 silly tarball no local data for ssf@https://registry.npmjs.org/ssf/-/ssf-0.11.2.tgz. Extracting by manifest.
+188 http cache cfb@https://registry.npmjs.org/cfb/-/cfb-1.2.2.tgz 0ms (cache hit)
+189 silly tarball no local data for crc-32@https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz. Extracting by manifest.
+190 silly tarball no local data for codepage@https://registry.npmjs.org/codepage/-/codepage-1.15.0.tgz. Extracting by manifest.
+191 http cache xlsx@https://registry.npmjs.org/xlsx/-/xlsx-0.18.5.tgz 1ms (cache hit)
+192 http cache adler-32@https://registry.npmjs.org/adler-32/-/adler-32-1.3.1.tgz 0ms (cache hit)
+193 silly tarball no local data for cfb@https://registry.npmjs.org/cfb/-/cfb-1.2.2.tgz. Extracting by manifest.
+194 silly tarball no local data for xlsx@https://registry.npmjs.org/xlsx/-/xlsx-0.18.5.tgz. Extracting by manifest.
+195 silly tarball no local data for adler-32@https://registry.npmjs.org/adler-32/-/adler-32-1.3.1.tgz. Extracting by manifest.
+196 http fetch GET 200 https://registry.npmjs.org/word/-/word-0.3.0.tgz 312ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/frac/-/frac-1.1.2.tgz 496ms (cache miss)
+198 http fetch GET 200 https://registry.npmjs.org/ssf/-/ssf-0.11.2.tgz 494ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz 506ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/adler-32/-/adler-32-1.3.1.tgz 542ms (cache miss)
+201 http fetch GET 200 https://registry.npmjs.org/wmf/-/wmf-1.0.2.tgz 617ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/cfb/-/cfb-1.2.2.tgz 630ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/xlsx/-/xlsx-0.18.5.tgz 1462ms (cache miss)
+204 http fetch GET 200 https://registry.npmjs.org/codepage/-/codepage-1.15.0.tgz 2124ms (cache miss)
+205 silly ADD node_modules/frac
+206 silly ADD node_modules/word
+207 silly ADD node_modules/wmf
+208 silly ADD node_modules/ssf
+209 silly ADD node_modules/crc-32
+210 silly ADD node_modules/codepage
+211 silly ADD node_modules/cfb
+212 silly ADD node_modules/adler-32
+213 silly ADD node_modules/xlsx
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly ADD
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly ADD
+245 silly ADD
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 silly ADD
+254 silly ADD
+255 silly ADD
+256 silly ADD
+257 silly ADD
+258 silly ADD
+259 silly ADD
+260 silly ADD
+261 silly ADD
+262 silly ADD
+263 silly ADD
+264 silly ADD
+265 silly ADD
+266 silly ADD
+267 silly ADD
+268 silly ADD
+269 silly ADD
+270 silly ADD
+271 verbose cwd C:\Users\ASUS\OneDrive\Documents\Template importer
+272 verbose os Windows_NT 10.0.26200
+273 verbose node v22.14.0
+274 verbose npm  v10.9.2
+275 verbose exit 0
+276 info ok
