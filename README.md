@@ -16,7 +16,7 @@ For Vercel, set `DATABASE_URL` in project environment variables, run the migrati
 
 `sample-data/internachi-residential-demo.html` is a compact, shareable stand-in based on the public InterNACHI Residential template suggested in the exercise. Replace it with the actual Spectora **Export to spreadsheet → Export HTML Text** file before submission; the app accepts `.html` / `.htm` HTML-text exports.
 
-The deterministic parser maps `h1/h2 → Section`, `h3/h4 → Item`, and paragraphs/list/table cells → ordered comments. It stores both the original block HTML and a plain-text projection. Every imported template has a SHA-256 source fingerprint and an import receipt with counts and warnings.
+The importer accepts Spectora's `.xlsx`/`.xls` **Export HTML Text** spreadsheet. It maps `Section Name → Section`, `Item Name → Item`, and `Comment Text → ordered comment`, using column headings rather than hard-coded column positions. Comment names are kept at the start of comment text in this first editor version. It also accepts legacy HTML files, mapping `h1/h2 → Section`, `h3/h4 → Item`, and paragraphs/list/table cells → ordered comments. Every imported template has a SHA-256 source fingerprint and an import receipt with counts and warnings.
 
 ## Deliberate limits
 
