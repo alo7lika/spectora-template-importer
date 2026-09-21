@@ -7,7 +7,7 @@ The extra effort went into **import trust**: an immutable source fingerprint, pr
 ## Checks performed
 
 - TypeScript type check completed successfully. The committed sample is designed to produce 3 sections, 6 items, and 7 comments; re-run the parser smoke check locally after installing dependencies if needed.
-- Import flow accepts Spectora HTML-text spreadsheets (`.xlsx`/`.xls`) and rejects empty/non-semantic uploads with a clear error.
+- Import flow rejects empty/non-semantic HTML with a clear error.
 - The API writes normalized records in one database create, reloads them via `GET /api/templates/:id`, and duplicate creates new records instead of sharing IDs.
 - The UI intentionally retains unsaved edits after a failed save.
 
